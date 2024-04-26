@@ -33,18 +33,30 @@ public class conditions {
 //     else {
 //         System.out.println("a is lesser ");
 //     }
-System.out.println("Press button : ");
-int button = sc.nextInt();
+// System.out.println("Press button : ");
+// int button = sc.nextInt();
 
-if(button == 1) {
-    System.out.println("Hello");
-} else if (button == 2) {
-    System.out.println("Namaste");
-} else if (button == 3) {
-    System.out.println("Bonjour");
-} else {
-System.out.println("Invalid button");
+// if(button == 1) {
+//     System.out.println("Hello");
+// } else if (button == 2) {
+//     System.out.println("Namaste");
+// } else if (button == 3) {
+//     System.out.println("Bonjour");
+// } else {
+// System.out.println("Invalid button");
+// }
+// sc.close();
+
+int button = sc.nextInt();
+switch (button) {
+    case 1 : System.out.println("Hello");
+    break;
+    case 2 : System.out.println("Namaste");
+    break;
+    case 3 : System.out.println("Bonjour");
+    break;
+    default: System.out.println("Invalid button");
+    
 }
-sc.close();
     }
 }
