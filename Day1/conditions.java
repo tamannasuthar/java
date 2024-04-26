@@ -4,7 +4,7 @@ public class conditions {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter first number : ");
+        // System.out.print("Enter first number : ");
     //    int age = sc.nextInt();
 
     //    if(age > 18) {
@@ -21,18 +21,30 @@ public class conditions {
 //     System.out.println("Odd");
 // }
 
-int a = sc.nextInt();
-System.out.print("Enter second number : ");
-int b = sc.nextInt();
+// int a = sc.nextInt();
+// System.out.print("Enter second number : ");
+// int b = sc.nextInt();
 
-if(a == b) {
-    System.out.println("Equal");
-} else  if(a > b) {
-        System.out.println("a is greater ");
-    } 
-    else {
-        System.out.println("a is lesser ");
-    }
+// if(a == b) {
+//     System.out.println("Equal");
+// } else  if(a > b) {
+//         System.out.println("a is greater ");
+//     } 
+//     else {
+//         System.out.println("a is lesser ");
+//     }
+System.out.println("Press button : ");
+int button = sc.nextInt();
 
+if(button == 1) {
+    System.out.println("Hello");
+} else if (button == 2) {
+    System.out.println("Namaste");
+} else if (button == 3) {
+    System.out.println("Bonjour");
+} else {
+System.out.println("Invalid button");
+}
+sc.close();
     }
 }
