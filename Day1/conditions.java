@@ -56,7 +56,7 @@ switch (button) {
     case 3 : System.out.println("Bonjour");
     break;
     default: System.out.println("Invalid button");
-    
+    sc.close();
 }
     }
 }
