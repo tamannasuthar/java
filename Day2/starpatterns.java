@@ -10,6 +10,7 @@ public class starpatterns {
                 System.out.print("*");
             }
             System.out.println();
+            
         }
     }
     
