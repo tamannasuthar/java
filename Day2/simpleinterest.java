@@ -10,5 +10,6 @@ public class simpleinterest {
         int N = sc.nextInt();
         int simpleInterest =(P * R * N ) / 100;
         System.out.println("Simpleinterest = " + simpleInterest );
+        sc.close();
     }
 }
