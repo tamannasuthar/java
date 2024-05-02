@@ -30,5 +30,9 @@ public class butterflypattern {
             }
             System.out.println();
            }
+
+
+
+           
     }
 }
