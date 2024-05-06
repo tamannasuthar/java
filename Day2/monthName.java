@@ -2,10 +2,10 @@ import java.util.*;
 public class monthName {
     public static void main(String[] args) {
         
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the number of the month (1-12): ");
-        int monthNumber = scanner.nextInt();
+        int monthNumber = sc.nextInt();
 
         String monthName;
         switch (monthNumber) {
@@ -51,6 +51,6 @@ public class monthName {
 
         System.out.println("The month is: " + monthName);
 
-        scanner.close();
+        sc.close();
     }
 }
