@@ -33,17 +33,6 @@ public class arraysNames {
    public static void main(String args[]) {
       Scanner sc = new Scanner(System.in);
       System.out.print("Enter numbers: ");
-      System.out.print("Enter numbers: ");
-      System.out.print("Enter numbers: ");
-      System.out.print("Enter numbers: ");
-      System.out.print("Enter numbers: ");
-      System.out.print("Enter numbers: ");
-      System.out.print("Enter numbers: ");
-      System.out.print("Enter numbers: ");
-      System.out.print("Enter numbers: ");
-      System.out.print("Enter numbers: ");
-      System.out.print("Enter numbers: ");
-      System.out.print("Enter numbers: ");
       int size = sc.nextInt();
       int numbers[] = new int[size];
 
