@@ -27,5 +27,6 @@ public class circleRadius {
 
         // Print the radius of the circle.
         System.out.println("The radius of the circle is: " + radius);
+        sc.close();
     }
 }
